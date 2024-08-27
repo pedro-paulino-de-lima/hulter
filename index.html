@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HULTER: SEMPRE TE AJUDANDO A CRESCER NOS ESPORTES!">
+    <meta name="keywords" content="hulter esportes esporte sport">
+    <title>HULTER | Sua loja favorita de esportes!</title>
+
+    <!--LOGO-->
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+
+    <!--PROJECT FILES-->
+    <link rel="stylesheet" href="./css/index.css">
+
+    <!--BOOTSTRAP-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" style="color: white;">
+                        <img src="./images/logo.png" style="max-width: 80px; max-height:80px; border-radius: 25px;">
+                    </a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Página Principal</a></li>
+                    <li><a href="#">Sobre Nós</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="https://github.com/pedro-paulino-de-lima/hulter" target="_blank"><span class="glyphicon glyphicon glyphicon-hdd"> Repositório</span></a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-user" id="loginBtn"></span> Criar login </a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"> Logar</span></a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="jumbotron" id="header">
+            <h1>
+                HULTER
+            </h1>
+            <h2>Seu site preferido de artigos esportivos</h2>
+        </div>
+    </header>
+    <body>
+        <section class="promotions">
+            <div class="products">
+                <div class="product" id="1">
+                    <img src="./images/default.jpg">
+                    <h1>Nome do Produto</h1>
+                    <h2>Preço</h2>
+                    <p>Descrição</p>
+                    <button>Comprar</button>
+                </div>
+                <div class="product" id="2">
+                    <img src="./images/default.jpg">
+                    <h1>Nome do Produto</h1>
+                    <h2>Preço</h2>
+                    <p>Descrição</p>
+                    <button>Comprar</button>
+                </div>
+                <div class="product" id="3">
+                    <img src="./images/default.jpg">
+                    <h1>Nome do Produto</h1>
+                    <h2>Preço</h2>
+                    <p>Descrição</p>
+                    <button>Comprar</button>
+                </div>
+                <div class="product" id="4">
+                    <img src="./images/default.jpg">
+                    <h1>Nome do Produto</h1>
+                    <h2>Preço</h2>
+                    <p>Descrição</p>
+                    <button>Comprar</button>
+                </div>
+            </div>
+        </section>
+        <br>
+        <div class="about-us">
+            <h2>Sobre Nós</h2>
+            <p>No HULTER, a nossa equipe é composta por especialistas em esportes e entusiastas dedicados, com vasta experiência no setor. Entendemos que cada esporte tem suas particularidades e que cada atleta tem necessidades únicas. Por isso, trabalhamos incansavelmente para selecionar produtos que combinem inovação, desempenho e conforto.</p>
+        </div>
+        <br>
+        <div class="avaliations">
+            <div class="avaliation">
+                <img src="./images/avaliation-person.avif" id="avaliationImage">
+                <h2>Juliana Martins</h2>
+                <p>"Uma empresa confiável e séria, comprei diversas coisas para o meu filho aqui e vou continuar comprando!"</p>
+                <div class="stars">
+                    <img src="./images/star.png" alt=""><img src="./images/star.png" alt=""><img src="./images/star.png" alt=""><img src="./images/star.png" alt=""><img src="./images/star.png" alt="">
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="contact">
+            <i><h2 style="color: white;">Contate-nós!</h2></i>
+            <section class="options">
+                <select id="select-contact-method">
+                    <option value="email">E-mail</option>
+                    <option value="tik tok">Tik Tok</option>
+                    <option value="tel">Telefone</option>
+                    <option value="facebook">Facebook</option>
+                </select>
+                <h2 id="contactType">E-Mail</h2>
+                <i><h3 id="contactValue">contato@hulter.com</h3></i>
+            </section>
+        </div>
+        <footer>
+            <h2>HULTER</h2>
+            <h3>Sua loja favorita de artigos esportivos</h3>
+            <p><a href="https://github.com/pedro-paulino-de-lima">__phcp__</a> @ 2024</p>
+        </footer>
+    </body>
+
+    <!--JAVA SCRIPT FILES-->
+    <script src="./js/contact-change.js"></script>
+</body>
+</html>
