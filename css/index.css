@@ -127,3 +127,12 @@ footer a:hover
     margin: auto;
     margin-bottom: 10px;
 }
+
+.contact select
+{
+    background-color: #04BF7B;
+    color: white;
+    padding: 10px;
+    border-color: transparent;
+    border-radius: 10px;
+}
